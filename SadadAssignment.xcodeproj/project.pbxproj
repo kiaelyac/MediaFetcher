@@ -15,6 +15,7 @@
 		6674DBEB2C6A6947008764FA /* SadadAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBEA2C6A6947008764FA /* SadadAssignmentUITests.swift */; };
 		6674DBED2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */; };
 		6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBFF2C6A6AC6008764FA /* APIConstant.swift */; };
+		6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6674DBEA2C6A6947008764FA /* SadadAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentUITests.swift; sourceTree = "<group>"; };
 		6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6674DBFF2C6A6AC6008764FA /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				6674DBFF2C6A6AC6008764FA /* APIConstant.swift */,
+				6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6674DBD22C6A6945008764FA /* ContentView.swift in Sources */,
+				6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */,
 				6674DBD02C6A6945008764FA /* SadadAssignmentApp.swift in Sources */,
 				6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */,
 			);
