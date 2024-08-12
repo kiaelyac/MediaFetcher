@@ -94,8 +94,12 @@
 		6674DBCE2C6A6945008764FA /* SadadAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */,
-				6674DBD12C6A6945008764FA /* ContentView.swift */,
+				6674DBFE2C6A69E1008764FA /* Extention */,
+				6674DBFD2C6A69DA008764FA /* Model */,
+				6674DBFC2C6A69CF008764FA /* ViewModel */,
+				6674DBFB2C6A69C9008764FA /* Networking */,
+				6674DBFA2C6A69BD008764FA /* View */,
+				6674DBF92C6A69B3008764FA /* App */,
 				6674DBD32C6A6947008764FA /* Assets.xcassets */,
 				6674DBD52C6A6947008764FA /* Preview Content */,
 			);
@@ -125,6 +129,50 @@
 				6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */,
 			);
 			path = SadadAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		6674DBF92C6A69B3008764FA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6674DBFA2C6A69BD008764FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6674DBD12C6A6945008764FA /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6674DBFB2C6A69C9008764FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6674DBFC2C6A69CF008764FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6674DBFD2C6A69DA008764FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6674DBFE2C6A69E1008764FA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
