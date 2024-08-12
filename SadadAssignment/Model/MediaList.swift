@@ -14,5 +14,5 @@ struct Media: Codable {
     let mediaLink: String
 }
 
-typealias Medias = [Media]
+typealias MediaList = [Media]
 
