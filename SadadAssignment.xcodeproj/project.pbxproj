@@ -116,14 +116,14 @@
 		6674DBCE2C6A6945008764FA /* SadadAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				6674DBFE2C6A69E1008764FA /* Extention */,
-				6674DBFD2C6A69DA008764FA /* Model */,
-				6674DBFC2C6A69CF008764FA /* ViewModel */,
-				6674DBFB2C6A69C9008764FA /* Networking */,
-				6674DBFA2C6A69BD008764FA /* View */,
 				6674DBF92C6A69B3008764FA /* App */,
 				6674DBD32C6A6947008764FA /* Assets.xcassets */,
+				6674DBFE2C6A69E1008764FA /* Extention */,
+				6674DBFD2C6A69DA008764FA /* Model */,
+				6674DBFB2C6A69C9008764FA /* Networking */,
 				6674DBD52C6A6947008764FA /* Preview Content */,
+				6674DBFA2C6A69BD008764FA /* View */,
+				6674DBFC2C6A69CF008764FA /* ViewModel */,
 			);
 			path = SadadAssignment;
 			sourceTree = "<group>";

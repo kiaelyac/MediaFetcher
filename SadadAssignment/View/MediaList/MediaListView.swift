@@ -10,6 +10,7 @@ import SwiftUI
 struct MediaListView: View {
     @StateObject var mediaListViewModel = MediaListViewModel()
     var body: some View {
+        
         ScrollView {
             VStack {
                 ForEach(mediaListViewModel.mediaList, id: \.title) { media in
@@ -17,7 +18,11 @@ struct MediaListView: View {
                 }
             }
         }
-
+        .overlay {
+            if mediaListViewModel.isLoading {
+                ProgressView()
+            }
+        }
         .onAppear(perform: {
             mediaListViewModel.getMediaList()
         })
