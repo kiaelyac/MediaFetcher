@@ -22,4 +22,15 @@ enum MediaType: String {
             false
         }
     }
+    
+    func mediaLogText(mediaLink: String) -> String {
+        switch self {
+        case .video:
+            return "پخش ویدیو با لینک:\(mediaLink)"
+        case .image:
+            return "نمایش تصویر با لینک:\(mediaLink)"
+        case .other:
+            return "عدم وجود ویدیو با لینک:\(mediaLink)"
+        }
+    }
 }

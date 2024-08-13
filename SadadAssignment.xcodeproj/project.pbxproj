@@ -27,6 +27,7 @@
 		6674DC172C6A78E4008764FA /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC162C6A78E4008764FA /* RoundedCorner.swift */; };
 		66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9E9FE2C6B9CE70055A18B /* MediaType.swift */; };
 		66A9EA012C6B9D310055A18B /* Extention + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EA002C6B9D310055A18B /* Extention + String.swift */; };
+		66A9EA032C6BA2270055A18B /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		6674DC162C6A78E4008764FA /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		66A9E9FE2C6B9CE70055A18B /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		66A9EA002C6B9D310055A18B /* Extention + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + String.swift"; sourceTree = "<group>"; };
+		66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			children = (
 				6674DC152C6A78D8008764FA /* Helper */,
 				6674DC102C6A77A1008764FA /* MediaList */,
+				66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				6674DC0F2C6A7584008764FA /* MediaListViewModel.swift in Sources */,
 				66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */,
 				6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */,
+				66A9EA032C6BA2270055A18B /* MediaPlayerView.swift in Sources */,
 				6674DC122C6A77CA008764FA /* MediaItemView.swift in Sources */,
 				6674DBD02C6A6945008764FA /* SadadAssignmentApp.swift in Sources */,
 				6674DC072C6A6D65008764FA /* NetworkDispatcher.swift in Sources */,
