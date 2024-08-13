@@ -15,7 +15,7 @@ struct MediaListView: View {
         ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading) {
                     ForEach(mediaListViewModel.mediaList, id: \.title) { media in
-                        MediaItemView(previewLink: media.previewLink, title: media.title)
+                        MediaItemView(previewLink: media.previewLink, title: media.title, type: media.type.convertToMediaType)
                     }
                 }
             }

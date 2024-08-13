@@ -25,6 +25,8 @@
 		6674DC122C6A77CA008764FA /* MediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC112C6A77CA008764FA /* MediaItemView.swift */; };
 		6674DC142C6A78B2008764FA /* Extention + View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC132C6A78B2008764FA /* Extention + View.swift */; };
 		6674DC172C6A78E4008764FA /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC162C6A78E4008764FA /* RoundedCorner.swift */; };
+		66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9E9FE2C6B9CE70055A18B /* MediaType.swift */; };
+		66A9EA012C6B9D310055A18B /* Extention + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EA002C6B9D310055A18B /* Extention + String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		6674DC112C6A77CA008764FA /* MediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemView.swift; sourceTree = "<group>"; };
 		6674DC132C6A78B2008764FA /* Extention + View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + View.swift"; sourceTree = "<group>"; };
 		6674DC162C6A78E4008764FA /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		66A9E9FE2C6B9CE70055A18B /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		66A9EA002C6B9D310055A18B /* Extention + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				6674DC0C2C6A7523008764FA /* MediaList.swift */,
+				66A9E9FE2C6B9CE70055A18B /* MediaType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				6674DC132C6A78B2008764FA /* Extention + View.swift */,
+				66A9EA002C6B9D310055A18B /* Extention + String.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -360,6 +366,7 @@
 				6674DC0D2C6A7523008764FA /* MediaList.swift in Sources */,
 				6674DC172C6A78E4008764FA /* RoundedCorner.swift in Sources */,
 				6674DC0F2C6A7584008764FA /* MediaListViewModel.swift in Sources */,
+				66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */,
 				6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */,
 				6674DC122C6A77CA008764FA /* MediaItemView.swift in Sources */,
 				6674DBD02C6A6945008764FA /* SadadAssignmentApp.swift in Sources */,
@@ -367,6 +374,7 @@
 				6674DC0B2C6A7230008764FA /* APIRouter.swift in Sources */,
 				6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */,
 				6674DC052C6A6D32008764FA /* NetworkRequestError.swift in Sources */,
+				66A9EA012C6B9D310055A18B /* Extention + String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
