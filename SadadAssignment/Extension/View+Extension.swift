@@ -1,5 +1,5 @@
 //
-//  Extention + View.swift
+//  View+Extension.swift
 //  SadadAssignment
 //
 //  Created by kiarash on 8/12/24.

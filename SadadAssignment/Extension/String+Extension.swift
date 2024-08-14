@@ -1,5 +1,5 @@
 //
-//  Extention + String.swift
+//  String+Extension.swift
 //  SadadAssignment
 //
 //  Created by kiarash on 8/13/24.

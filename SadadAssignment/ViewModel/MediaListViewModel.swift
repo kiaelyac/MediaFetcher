@@ -13,7 +13,7 @@ class MediaListViewModel: ObservableObject {
     @Published var mediaList: MediaList = []
     @Published var isLoading = true
     @Published var errorMessage = ""
-    var cancelabele: Set<AnyCancellable> = []
+    var cancelable: Set<AnyCancellable> = []
     
     func getMediaList() {
         
@@ -28,6 +28,6 @@ class MediaListViewModel: ObservableObject {
                 }
             } receiveValue: { [weak self] mediaList in
                 self?.mediaList = mediaList
-            }.store(in: &cancelabele)
+            }.store(in: &cancelable)
     }
 }
