@@ -15,6 +15,7 @@ struct APIClient {
     /// - Parameter request: Request to Dispatch
     /// - Returns: A publisher containing decoded data or an error
     static func dispatch<R: NetworkRequestProvider>(_ request: R) -> AnyPublisher<R.ReturnType, NetworkRequestError> {
+        
         guard let urlRequest = request.createURLRequest(baseURL: ApiConstants.baseUrl) else {
             return Fail(outputType: R.ReturnType.self, failure: NetworkRequestError.badRequest(description: "Bad request. Please check your input and try again.")).eraseToAnyPublisher()
         }

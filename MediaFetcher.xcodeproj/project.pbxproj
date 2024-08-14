@@ -11,9 +11,6 @@
 		6674DBD22C6A6945008764FA /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBD12C6A6945008764FA /* MediaListView.swift */; };
 		6674DBD42C6A6947008764FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6674DBD32C6A6947008764FA /* Assets.xcassets */; };
 		6674DBD72C6A6947008764FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6674DBD62C6A6947008764FA /* Preview Assets.xcassets */; };
-		6674DBE12C6A6947008764FA /* SadadAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBE02C6A6947008764FA /* SadadAssignmentTests.swift */; };
-		6674DBEB2C6A6947008764FA /* SadadAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBEA2C6A6947008764FA /* SadadAssignmentUITests.swift */; };
-		6674DBED2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */; };
 		6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBFF2C6A6AC6008764FA /* APIConstant.swift */; };
 		6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */; };
 		6674DC052C6A6D32008764FA /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC042C6A6D32008764FA /* NetworkRequestError.swift */; };
@@ -48,16 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6674DBCC2C6A6945008764FA /* SadadAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SadadAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6674DBCC2C6A6945008764FA /* MediaFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentApp.swift; sourceTree = "<group>"; };
 		6674DBD12C6A6945008764FA /* MediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
 		6674DBD32C6A6947008764FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6674DBD62C6A6947008764FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6674DBDC2C6A6947008764FA /* SadadAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SadadAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6674DBE02C6A6947008764FA /* SadadAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentTests.swift; sourceTree = "<group>"; };
-		6674DBE62C6A6947008764FA /* SadadAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SadadAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6674DBEA2C6A6947008764FA /* SadadAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentUITests.swift; sourceTree = "<group>"; };
-		6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6674DBDC2C6A6947008764FA /* MediaFetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaFetcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6674DBE62C6A6947008764FA /* MediaFetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaFetcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6674DBFF2C6A6AC6008764FA /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 		6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestProvider.swift; sourceTree = "<group>"; };
 		6674DC042C6A6D32008764FA /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
@@ -102,9 +96,7 @@
 		6674DBC32C6A6945008764FA = {
 			isa = PBXGroup;
 			children = (
-				6674DBCE2C6A6945008764FA /* SadadAssignment */,
-				6674DBDF2C6A6947008764FA /* SadadAssignmentTests */,
-				6674DBE92C6A6947008764FA /* SadadAssignmentUITests */,
+				6674DBCE2C6A6945008764FA /* MediaFetcher */,
 				6674DBCD2C6A6945008764FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,14 +104,14 @@
 		6674DBCD2C6A6945008764FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6674DBCC2C6A6945008764FA /* SadadAssignment.app */,
-				6674DBDC2C6A6947008764FA /* SadadAssignmentTests.xctest */,
-				6674DBE62C6A6947008764FA /* SadadAssignmentUITests.xctest */,
+				6674DBCC2C6A6945008764FA /* MediaFetcher.app */,
+				6674DBDC2C6A6947008764FA /* MediaFetcherTests.xctest */,
+				6674DBE62C6A6947008764FA /* MediaFetcherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6674DBCE2C6A6945008764FA /* SadadAssignment */ = {
+		6674DBCE2C6A6945008764FA /* MediaFetcher */ = {
 			isa = PBXGroup;
 			children = (
 				6674DBF92C6A69B3008764FA /* App */,
@@ -131,8 +123,9 @@
 				6674DBFA2C6A69BD008764FA /* View */,
 				6674DBFC2C6A69CF008764FA /* ViewModel */,
 			);
-			path = SadadAssignment;
-			sourceTree = "<group>";
+			name = MediaFetcher;
+			path = /Users/kiarash/Desktop/MediaFetcher/MediaFetcher;
+			sourceTree = "<absolute>";
 		};
 		6674DBD52C6A6947008764FA /* Preview Content */ = {
 			isa = PBXGroup;
@@ -140,23 +133,6 @@
 				6674DBD62C6A6947008764FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6674DBDF2C6A6947008764FA /* SadadAssignmentTests */ = {
-			isa = PBXGroup;
-			children = (
-				6674DBE02C6A6947008764FA /* SadadAssignmentTests.swift */,
-			);
-			path = SadadAssignmentTests;
-			sourceTree = "<group>";
-		};
-		6674DBE92C6A6947008764FA /* SadadAssignmentUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6674DBEA2C6A6947008764FA /* SadadAssignmentUITests.swift */,
-				6674DBEC2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift */,
-			);
-			path = SadadAssignmentUITests;
 			sourceTree = "<group>";
 		};
 		6674DBF92C6A69B3008764FA /* App */ = {
@@ -236,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6674DBCB2C6A6945008764FA /* SadadAssignment */ = {
+		6674DBCB2C6A6945008764FA /* MediaFetcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6674DBF02C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignment" */;
+			buildConfigurationList = 6674DBF02C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcher" */;
 			buildPhases = (
 				6674DBC82C6A6945008764FA /* Sources */,
 				6674DBC92C6A6945008764FA /* Frameworks */,
@@ -248,14 +224,14 @@
 			);
 			dependencies = (
 			);
-			name = SadadAssignment;
+			name = MediaFetcher;
 			productName = SadadAssignment;
-			productReference = 6674DBCC2C6A6945008764FA /* SadadAssignment.app */;
+			productReference = 6674DBCC2C6A6945008764FA /* MediaFetcher.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6674DBDB2C6A6947008764FA /* SadadAssignmentTests */ = {
+		6674DBDB2C6A6947008764FA /* MediaFetcherTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6674DBF32C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignmentTests" */;
+			buildConfigurationList = 6674DBF32C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcherTests" */;
 			buildPhases = (
 				6674DBD82C6A6947008764FA /* Sources */,
 				6674DBD92C6A6947008764FA /* Frameworks */,
@@ -266,14 +242,14 @@
 			dependencies = (
 				6674DBDE2C6A6947008764FA /* PBXTargetDependency */,
 			);
-			name = SadadAssignmentTests;
+			name = MediaFetcherTests;
 			productName = SadadAssignmentTests;
-			productReference = 6674DBDC2C6A6947008764FA /* SadadAssignmentTests.xctest */;
+			productReference = 6674DBDC2C6A6947008764FA /* MediaFetcherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6674DBE52C6A6947008764FA /* SadadAssignmentUITests */ = {
+		6674DBE52C6A6947008764FA /* MediaFetcherUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6674DBF62C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignmentUITests" */;
+			buildConfigurationList = 6674DBF62C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcherUITests" */;
 			buildPhases = (
 				6674DBE22C6A6947008764FA /* Sources */,
 				6674DBE32C6A6947008764FA /* Frameworks */,
@@ -284,9 +260,9 @@
 			dependencies = (
 				6674DBE82C6A6947008764FA /* PBXTargetDependency */,
 			);
-			name = SadadAssignmentUITests;
+			name = MediaFetcherUITests;
 			productName = SadadAssignmentUITests;
-			productReference = 6674DBE62C6A6947008764FA /* SadadAssignmentUITests.xctest */;
+			productReference = 6674DBE62C6A6947008764FA /* MediaFetcherUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -312,7 +288,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6674DBC72C6A6945008764FA /* Build configuration list for PBXProject "SadadAssignment" */;
+			buildConfigurationList = 6674DBC72C6A6945008764FA /* Build configuration list for PBXProject "MediaFetcher" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -325,9 +301,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6674DBCB2C6A6945008764FA /* SadadAssignment */,
-				6674DBDB2C6A6947008764FA /* SadadAssignmentTests */,
-				6674DBE52C6A6947008764FA /* SadadAssignmentUITests */,
+				6674DBCB2C6A6945008764FA /* MediaFetcher */,
+				6674DBDB2C6A6947008764FA /* MediaFetcherTests */,
+				6674DBE52C6A6947008764FA /* MediaFetcherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -386,7 +362,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674DBE12C6A6947008764FA /* SadadAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,8 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674DBEB2C6A6947008764FA /* SadadAssignmentUITests.swift in Sources */,
-				6674DBED2C6A6947008764FA /* SadadAssignmentUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +377,12 @@
 /* Begin PBXTargetDependency section */
 		6674DBDE2C6A6947008764FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6674DBCB2C6A6945008764FA /* SadadAssignment */;
+			target = 6674DBCB2C6A6945008764FA /* MediaFetcher */;
 			targetProxy = 6674DBDD2C6A6947008764FA /* PBXContainerItemProxy */;
 		};
 		6674DBE82C6A6947008764FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6674DBCB2C6A6945008764FA /* SadadAssignment */;
+			target = 6674DBCB2C6A6945008764FA /* MediaFetcher */;
 			targetProxy = 6674DBE72C6A6947008764FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -541,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SadadAssignment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MediaFetcher/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XSNUFKD54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -555,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..SadadAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MediaFetcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -570,7 +543,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SadadAssignment/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MediaFetcher/Preview Content\"";
 				DEVELOPMENT_TEAM = 4XSNUFKD54;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -584,7 +557,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com..SadadAssignment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MediaFetcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -608,7 +581,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SadadAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SadadAssignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaFetcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediaFetcher";
 			};
 			name = Debug;
 		};
@@ -628,7 +601,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SadadAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SadadAssignment";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaFetcher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MediaFetcher";
 			};
 			name = Release;
 		};
@@ -671,7 +644,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6674DBC72C6A6945008764FA /* Build configuration list for PBXProject "SadadAssignment" */ = {
+		6674DBC72C6A6945008764FA /* Build configuration list for PBXProject "MediaFetcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6674DBEE2C6A6947008764FA /* Debug */,
@@ -680,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6674DBF02C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignment" */ = {
+		6674DBF02C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6674DBF12C6A6947008764FA /* Debug */,
@@ -689,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6674DBF32C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignmentTests" */ = {
+		6674DBF32C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6674DBF42C6A6947008764FA /* Debug */,
@@ -698,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6674DBF62C6A6947008764FA /* Build configuration list for PBXNativeTarget "SadadAssignmentUITests" */ = {
+		6674DBF62C6A6947008764FA /* Build configuration list for PBXNativeTarget "MediaFetcherUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6674DBF72C6A6947008764FA /* Debug */,
