@@ -8,21 +8,19 @@
 import SwiftUI
 
 struct MediaPlayerView: View {
-    let mediaType: MediaType
-    let mediaLink: String
+    let media: Media
     var body: some View {
-        VStack {
-            Text(mediaType.mediaLogText(mediaLink: mediaLink))
-                .multilineTextAlignment(.trailing)
-                
-                
-        }
-        .onAppear(perform: {
-            print(mediaType.mediaLogText(mediaLink: mediaLink))
-        })
+            VStack {
+                Text(media.type.convertToMediaType.mediaLogText(mediaLink: media.mediaLink))
+                    .multilineTextAlignment(.trailing)
+            }
+            .navigationTitle("Media Player")
+            .onAppear(perform: {
+                print(media.type.convertToMediaType.mediaLogText(mediaLink: media.mediaLink))
+            })
     }
 }
 
 #Preview {
-    MediaPlayerView(mediaType: .video, mediaLink: "efewfewfwefwedscSUDHCWCEIUCUWCG9WEGCG9EQWCW89ECG98EWGC W89EGC8G9EW98GC 98CE8CW")
+    MediaPlayerView(media: Media(title: "", type: "", previewLink: "", mediaLink: ""))
 }

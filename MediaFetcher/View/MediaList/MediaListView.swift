@@ -8,19 +8,18 @@
 import SwiftUI
 
 struct MediaListView: View {
+    @EnvironmentObject var coordinator: NavigationCoordinator
     @StateObject var mediaListViewModel = MediaListViewModel()
     var body: some View {
-        
-        NavigationStack {
             ScrollView(showsIndicators: false) {
-                VStack(alignment: .leading) {
+                LazyVStack(alignment: .leading) {
                     ForEach(mediaListViewModel.mediaList, id: \.title) { media in
-                        NavigationLink {
-                            MediaPlayerView(mediaType: media.type.convertToMediaType, mediaLink: media.mediaLink)
+                        
+                        Button {
+                            coordinator.push(.mediaPlayerView(media: media))
                         } label: {
                             MediaItemView(previewLink: media.previewLink, title: media.title, type: media.type.convertToMediaType)
                         }
-                        .buttonStyle(PlainButtonStyle())
                         .padding()
                     }
                 }
@@ -41,7 +40,6 @@ struct MediaListView: View {
                     ProgressView()
                 }
             }
-        }
         .onAppear(perform: {
             mediaListViewModel.getMediaList()
         })
