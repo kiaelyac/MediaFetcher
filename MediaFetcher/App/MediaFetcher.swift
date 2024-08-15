@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SadadAssignmentApp: App {
+struct MediaFetcher: App {
     var body: some Scene {
         WindowGroup {
             MediaListView()
