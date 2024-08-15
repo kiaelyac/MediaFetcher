@@ -71,7 +71,6 @@ struct MediaItemView: View {
                     .scaledToFit()
                     .frame(width: 60, height: 60) // Error icon
                     .foregroundColor(.red.opacity(0.8))
-                    .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 5)
                 
                 Text("Failed to Load Image")
                     .font(.system(size: 18, weight: .semibold))
