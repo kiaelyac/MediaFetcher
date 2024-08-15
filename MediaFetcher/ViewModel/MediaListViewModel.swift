@@ -12,11 +12,12 @@ class MediaListViewModel: ObservableObject {
     
     @Published var mediaList: MediaList = []
     @Published var isLoading = true
+    @Published var receivedError = false
     @Published var errorMessage = ""
     var cancelable: Set<AnyCancellable> = []
     
     func getMediaList() {
-        
+        self.isLoading = true
         APIClient.dispatch(APIRouter.getMediaList())
             .sink { completion in
                 switch completion {
@@ -24,6 +25,7 @@ class MediaListViewModel: ObservableObject {
                     self.isLoading = false
                 case .failure(let error):
                     self.errorMessage = error.localizedDescription
+                    self.receivedError = true
                     self.isLoading = false
                 }
             } receiveValue: { [weak self] mediaList in

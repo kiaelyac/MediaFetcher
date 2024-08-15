@@ -11,8 +11,8 @@ struct MediaListView: View {
     @StateObject var mediaListViewModel = MediaListViewModel()
     var body: some View {
         
-    NavigationStack {
-        ScrollView(showsIndicators: false) {
+        NavigationStack {
+            ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading) {
                     ForEach(mediaListViewModel.mediaList, id: \.title) { media in
                         NavigationLink {
@@ -25,7 +25,16 @@ struct MediaListView: View {
                     }
                 }
             }
-            
+            .alert(mediaListViewModel.errorMessage, isPresented: $mediaListViewModel.receivedError, actions: {
+                Button(action: {}, label: {
+                    Text("Cancel")
+                })
+                Button(action: {
+                    mediaListViewModel.getMediaList()
+                }, label: {
+                    Text("Load Again")
+                })
+            })
             .navigationTitle("Media List")
             .overlay {
                 if mediaListViewModel.isLoading {
@@ -33,11 +42,9 @@ struct MediaListView: View {
                 }
             }
         }
-        
         .onAppear(perform: {
             mediaListViewModel.getMediaList()
         })
-        
     }
 }
 
