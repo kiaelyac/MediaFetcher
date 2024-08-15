@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6674DBD02C6A6945008764FA /* SadadAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */; };
-		6674DBD22C6A6945008764FA /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBD12C6A6945008764FA /* MediaListView.swift */; };
-		6674DBD42C6A6947008764FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6674DBD32C6A6947008764FA /* Assets.xcassets */; };
-		6674DBD72C6A6947008764FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6674DBD62C6A6947008764FA /* Preview Assets.xcassets */; };
-		6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DBFF2C6A6AC6008764FA /* APIConstant.swift */; };
-		6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */; };
-		6674DC052C6A6D32008764FA /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC042C6A6D32008764FA /* NetworkRequestError.swift */; };
-		6674DC072C6A6D65008764FA /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC062C6A6D65008764FA /* NetworkDispatcher.swift */; };
-		6674DC092C6A6F51008764FA /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC082C6A6F51008764FA /* APIClient.swift */; };
-		6674DC0B2C6A7230008764FA /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC0A2C6A7230008764FA /* APIRouter.swift */; };
-		6674DC0D2C6A7523008764FA /* MediaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC0C2C6A7523008764FA /* MediaList.swift */; };
-		6674DC0F2C6A7584008764FA /* MediaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC0E2C6A7584008764FA /* MediaListViewModel.swift */; };
-		6674DC122C6A77CA008764FA /* MediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC112C6A77CA008764FA /* MediaItemView.swift */; };
-		6674DC142C6A78B2008764FA /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC132C6A78B2008764FA /* View+Extension.swift */; };
-		6674DC172C6A78E4008764FA /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6674DC162C6A78E4008764FA /* RoundedCorner.swift */; };
-		66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9E9FE2C6B9CE70055A18B /* MediaType.swift */; };
-		66A9EA012C6B9D310055A18B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EA002C6B9D310055A18B /* String+Extension.swift */; };
-		66A9EA032C6BA2270055A18B /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */; };
+		66B3E8AD2C6E0C6700954837 /* SadadAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8912C6E0C6700954837 /* SadadAssignmentApp.swift */; };
+		66B3E8AE2C6E0C6700954837 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8932C6E0C6700954837 /* String+Extension.swift */; };
+		66B3E8AF2C6E0C6700954837 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8942C6E0C6700954837 /* View+Extension.swift */; };
+		66B3E8B02C6E0C6700954837 /* MediaList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8962C6E0C6700954837 /* MediaList.swift */; };
+		66B3E8B12C6E0C6700954837 /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8972C6E0C6700954837 /* MediaType.swift */; };
+		66B3E8B22C6E0C6700954837 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8992C6E0C6700954837 /* APIClient.swift */; };
+		66B3E8B32C6E0C6700954837 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89A2C6E0C6700954837 /* APIConstant.swift */; };
+		66B3E8B42C6E0C6700954837 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89B2C6E0C6700954837 /* APIRouter.swift */; };
+		66B3E8B52C6E0C6700954837 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89C2C6E0C6700954837 /* NetworkDispatcher.swift */; };
+		66B3E8B62C6E0C6700954837 /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89D2C6E0C6700954837 /* NetworkRequestError.swift */; };
+		66B3E8B72C6E0C6700954837 /* NetworkRequestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89E2C6E0C6700954837 /* NetworkRequestProvider.swift */; };
+		66B3E8B82C6E0C6700954837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B3E8A02C6E0C6700954837 /* Preview Assets.xcassets */; };
+		66B3E8B92C6E0C6700954837 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8A22C6E0C6700954837 /* RoundedCorner.swift */; };
+		66B3E8BA2C6E0C6700954837 /* MediaItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8A42C6E0C6700954837 /* MediaItemView.swift */; };
+		66B3E8BB2C6E0C6700954837 /* MediaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8A52C6E0C6700954837 /* MediaListView.swift */; };
+		66B3E8BC2C6E0C6700954837 /* MediaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8A72C6E0C6700954837 /* MediaPlayerView.swift */; };
+		66B3E8BD2C6E0C6700954837 /* MediaListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8A92C6E0C6700954837 /* MediaListViewModel.swift */; };
+		66B3E8BE2C6E0C6700954837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B3E8AB2C6E0C6700954837 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,26 +46,26 @@
 
 /* Begin PBXFileReference section */
 		6674DBCC2C6A6945008764FA /* MediaFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SadadAssignmentApp.swift; sourceTree = "<group>"; };
-		6674DBD12C6A6945008764FA /* MediaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
-		6674DBD32C6A6947008764FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6674DBD62C6A6947008764FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6674DBDC2C6A6947008764FA /* MediaFetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaFetcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6674DBE62C6A6947008764FA /* MediaFetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaFetcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6674DBFF2C6A6AC6008764FA /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
-		6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestProvider.swift; sourceTree = "<group>"; };
-		6674DC042C6A6D32008764FA /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
-		6674DC062C6A6D65008764FA /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
-		6674DC082C6A6F51008764FA /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		6674DC0A2C6A7230008764FA /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
-		6674DC0C2C6A7523008764FA /* MediaList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaList.swift; sourceTree = "<group>"; };
-		6674DC0E2C6A7584008764FA /* MediaListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewModel.swift; sourceTree = "<group>"; };
-		6674DC112C6A77CA008764FA /* MediaItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemView.swift; sourceTree = "<group>"; };
-		6674DC132C6A78B2008764FA /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
-		6674DC162C6A78E4008764FA /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
-		66A9E9FE2C6B9CE70055A18B /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
-		66A9EA002C6B9D310055A18B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
-		66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		66B3E8912C6E0C6700954837 /* SadadAssignmentApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SadadAssignmentApp.swift; sourceTree = "<group>"; };
+		66B3E8932C6E0C6700954837 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		66B3E8942C6E0C6700954837 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		66B3E8962C6E0C6700954837 /* MediaList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaList.swift; sourceTree = "<group>"; };
+		66B3E8972C6E0C6700954837 /* MediaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		66B3E8992C6E0C6700954837 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		66B3E89A2C6E0C6700954837 /* APIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		66B3E89B2C6E0C6700954837 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		66B3E89C2C6E0C6700954837 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		66B3E89D2C6E0C6700954837 /* NetworkRequestError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
+		66B3E89E2C6E0C6700954837 /* NetworkRequestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestProvider.swift; sourceTree = "<group>"; };
+		66B3E8A02C6E0C6700954837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		66B3E8A22C6E0C6700954837 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		66B3E8A42C6E0C6700954837 /* MediaItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItemView.swift; sourceTree = "<group>"; };
+		66B3E8A52C6E0C6700954837 /* MediaListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaListView.swift; sourceTree = "<group>"; };
+		66B3E8A72C6E0C6700954837 /* MediaPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPlayerView.swift; sourceTree = "<group>"; };
+		66B3E8A92C6E0C6700954837 /* MediaListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaListViewModel.swift; sourceTree = "<group>"; };
+		66B3E8AB2C6E0C6700954837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 		6674DBC32C6A6945008764FA = {
 			isa = PBXGroup;
 			children = (
-				6674DBCE2C6A6945008764FA /* MediaFetcher */,
+				66B3E8AC2C6E0C6700954837 /* MediaFetcher */,
 				6674DBCD2C6A6945008764FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,102 +111,101 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6674DBCE2C6A6945008764FA /* MediaFetcher */ = {
+		66B3E8922C6E0C6700954837 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				6674DBF92C6A69B3008764FA /* App */,
-				6674DBD32C6A6947008764FA /* Assets.xcassets */,
-				6674DBFE2C6A69E1008764FA /* Extension */,
-				6674DBFD2C6A69DA008764FA /* Model */,
-				6674DBFB2C6A69C9008764FA /* Networking */,
-				6674DBD52C6A6947008764FA /* Preview Content */,
-				6674DBFA2C6A69BD008764FA /* View */,
-				6674DBFC2C6A69CF008764FA /* ViewModel */,
-			);
-			name = MediaFetcher;
-			path = /Users/kiarash/Desktop/MediaFetcher/MediaFetcher;
-			sourceTree = "<absolute>";
-		};
-		6674DBD52C6A6947008764FA /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				6674DBD62C6A6947008764FA /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6674DBF92C6A69B3008764FA /* App */ = {
-			isa = PBXGroup;
-			children = (
-				6674DBCF2C6A6945008764FA /* SadadAssignmentApp.swift */,
+				66B3E8912C6E0C6700954837 /* SadadAssignmentApp.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		6674DBFA2C6A69BD008764FA /* View */ = {
+		66B3E8952C6E0C6700954837 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6674DC152C6A78D8008764FA /* Helper */,
-				6674DC102C6A77A1008764FA /* MediaList */,
-				66A9EA022C6BA2260055A18B /* MediaPlayerView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6674DBFB2C6A69C9008764FA /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				6674DBFF2C6A6AC6008764FA /* APIConstant.swift */,
-				6674DC012C6A6B44008764FA /* NetworkRequestProvider.swift */,
-				6674DC042C6A6D32008764FA /* NetworkRequestError.swift */,
-				6674DC062C6A6D65008764FA /* NetworkDispatcher.swift */,
-				6674DC082C6A6F51008764FA /* APIClient.swift */,
-				6674DC0A2C6A7230008764FA /* APIRouter.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
-		6674DBFC2C6A69CF008764FA /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				6674DC0E2C6A7584008764FA /* MediaListViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		6674DBFD2C6A69DA008764FA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6674DC0C2C6A7523008764FA /* MediaList.swift */,
-				66A9E9FE2C6B9CE70055A18B /* MediaType.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		6674DBFE2C6A69E1008764FA /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				6674DC132C6A78B2008764FA /* View+Extension.swift */,
-				66A9EA002C6B9D310055A18B /* String+Extension.swift */,
+				66B3E8932C6E0C6700954837 /* String+Extension.swift */,
+				66B3E8942C6E0C6700954837 /* View+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		6674DC102C6A77A1008764FA /* MediaList */ = {
+		66B3E8982C6E0C6700954837 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				6674DBD12C6A6945008764FA /* MediaListView.swift */,
-				6674DC112C6A77CA008764FA /* MediaItemView.swift */,
+				66B3E8962C6E0C6700954837 /* MediaList.swift */,
+				66B3E8972C6E0C6700954837 /* MediaType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66B3E89F2C6E0C6700954837 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8992C6E0C6700954837 /* APIClient.swift */,
+				66B3E89A2C6E0C6700954837 /* APIConstant.swift */,
+				66B3E89B2C6E0C6700954837 /* APIRouter.swift */,
+				66B3E89C2C6E0C6700954837 /* NetworkDispatcher.swift */,
+				66B3E89D2C6E0C6700954837 /* NetworkRequestError.swift */,
+				66B3E89E2C6E0C6700954837 /* NetworkRequestProvider.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		66B3E8A12C6E0C6700954837 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8A02C6E0C6700954837 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		66B3E8A32C6E0C6700954837 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8A22C6E0C6700954837 /* RoundedCorner.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		66B3E8A62C6E0C6700954837 /* MediaList */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8A42C6E0C6700954837 /* MediaItemView.swift */,
+				66B3E8A52C6E0C6700954837 /* MediaListView.swift */,
 			);
 			path = MediaList;
 			sourceTree = "<group>";
 		};
-		6674DC152C6A78D8008764FA /* Helper */ = {
+		66B3E8A82C6E0C6700954837 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6674DC162C6A78E4008764FA /* RoundedCorner.swift */,
+				66B3E8A32C6E0C6700954837 /* Helper */,
+				66B3E8A62C6E0C6700954837 /* MediaList */,
+				66B3E8A72C6E0C6700954837 /* MediaPlayerView.swift */,
 			);
-			path = Helper;
+			path = View;
+			sourceTree = "<group>";
+		};
+		66B3E8AA2C6E0C6700954837 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8A92C6E0C6700954837 /* MediaListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66B3E8AC2C6E0C6700954837 /* MediaFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				66B3E8922C6E0C6700954837 /* App */,
+				66B3E8952C6E0C6700954837 /* Extension */,
+				66B3E8982C6E0C6700954837 /* Model */,
+				66B3E89F2C6E0C6700954837 /* Networking */,
+				66B3E8A12C6E0C6700954837 /* Preview Content */,
+				66B3E8A82C6E0C6700954837 /* View */,
+				66B3E8AA2C6E0C6700954837 /* ViewModel */,
+				66B3E8AB2C6E0C6700954837 /* Assets.xcassets */,
+			);
+			path = MediaFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,8 +312,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674DBD72C6A6947008764FA /* Preview Assets.xcassets in Resources */,
-				6674DBD42C6A6947008764FA /* Assets.xcassets in Resources */,
+				66B3E8BE2C6E0C6700954837 /* Assets.xcassets in Resources */,
+				66B3E8B82C6E0C6700954837 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,22 +338,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6674DBD22C6A6945008764FA /* MediaListView.swift in Sources */,
-				6674DC142C6A78B2008764FA /* View+Extension.swift in Sources */,
-				6674DC092C6A6F51008764FA /* APIClient.swift in Sources */,
-				6674DC0D2C6A7523008764FA /* MediaList.swift in Sources */,
-				6674DC172C6A78E4008764FA /* RoundedCorner.swift in Sources */,
-				6674DC0F2C6A7584008764FA /* MediaListViewModel.swift in Sources */,
-				66A9E9FF2C6B9CE70055A18B /* MediaType.swift in Sources */,
-				6674DC022C6A6B44008764FA /* NetworkRequestProvider.swift in Sources */,
-				66A9EA032C6BA2270055A18B /* MediaPlayerView.swift in Sources */,
-				6674DC122C6A77CA008764FA /* MediaItemView.swift in Sources */,
-				6674DBD02C6A6945008764FA /* SadadAssignmentApp.swift in Sources */,
-				6674DC072C6A6D65008764FA /* NetworkDispatcher.swift in Sources */,
-				6674DC0B2C6A7230008764FA /* APIRouter.swift in Sources */,
-				6674DC002C6A6AC6008764FA /* APIConstant.swift in Sources */,
-				6674DC052C6A6D32008764FA /* NetworkRequestError.swift in Sources */,
-				66A9EA012C6B9D310055A18B /* String+Extension.swift in Sources */,
+				66B3E8B92C6E0C6700954837 /* RoundedCorner.swift in Sources */,
+				66B3E8B12C6E0C6700954837 /* MediaType.swift in Sources */,
+				66B3E8AE2C6E0C6700954837 /* String+Extension.swift in Sources */,
+				66B3E8AF2C6E0C6700954837 /* View+Extension.swift in Sources */,
+				66B3E8B02C6E0C6700954837 /* MediaList.swift in Sources */,
+				66B3E8AD2C6E0C6700954837 /* SadadAssignmentApp.swift in Sources */,
+				66B3E8B72C6E0C6700954837 /* NetworkRequestProvider.swift in Sources */,
+				66B3E8B42C6E0C6700954837 /* APIRouter.swift in Sources */,
+				66B3E8B52C6E0C6700954837 /* NetworkDispatcher.swift in Sources */,
+				66B3E8B32C6E0C6700954837 /* APIConstant.swift in Sources */,
+				66B3E8B22C6E0C6700954837 /* APIClient.swift in Sources */,
+				66B3E8BD2C6E0C6700954837 /* MediaListViewModel.swift in Sources */,
+				66B3E8BA2C6E0C6700954837 /* MediaItemView.swift in Sources */,
+				66B3E8B62C6E0C6700954837 /* NetworkRequestError.swift in Sources */,
+				66B3E8BC2C6E0C6700954837 /* MediaPlayerView.swift in Sources */,
+				66B3E8BB2C6E0C6700954837 /* MediaListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
