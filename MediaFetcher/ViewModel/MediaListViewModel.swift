@@ -24,7 +24,7 @@ class MediaListViewModel: ObservableObject {
                 case .finished:
                     self.isLoading = false
                 case .failure(let error):
-                    self.errorMessage = error.localizedDescription
+                    self.errorMessage = error.errorDescription ?? "Unable to connect to the server"
                     self.receivedError = true
                     self.isLoading = false
                 }
