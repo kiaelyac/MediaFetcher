@@ -21,9 +21,11 @@ struct MediaListView: View {
                             MediaItemView(previewLink: media.previewLink, title: media.title, type: media.type.convertToMediaType)
                         }
                         .buttonStyle(PlainButtonStyle())
+                        .padding()
                     }
                 }
             }
+            
             .navigationTitle("Media List")
             .overlay {
                 if mediaListViewModel.isLoading {
@@ -35,7 +37,7 @@ struct MediaListView: View {
         .onAppear(perform: {
             mediaListViewModel.getMediaList()
         })
-        .padding()
+        
     }
 }
 
