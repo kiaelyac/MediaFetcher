@@ -195,6 +195,7 @@
 		66B3E8A82C6E0C6700954837 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				665398D82C6E6F7100CF985F /* NavigationCoordinator */,
 				66B3E8A32C6E0C6700954837 /* Helper */,
 				66B3E8A62C6E0C6700954837 /* MediaList */,
 				66B3E8A72C6E0C6700954837 /* MediaPlayerView.swift */,
@@ -355,6 +356,7 @@
 				66B3E8B32C6E0C6700954837 /* APIConstant.swift in Sources */,
 				66B3E8B22C6E0C6700954837 /* APIClient.swift in Sources */,
 				66B3E8BD2C6E0C6700954837 /* MediaListViewModel.swift in Sources */,
+				665398DA2C6E70F200CF985F /* NavigationCoordinator.swift in Sources */,
 				66B3E8BA2C6E0C6700954837 /* MediaItemView.swift in Sources */,
 				66B3E8B62C6E0C6700954837 /* NetworkRequestError.swift in Sources */,
 				66B3E8BC2C6E0C6700954837 /* MediaPlayerView.swift in Sources */,

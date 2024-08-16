@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct MediaFetcher: App {
+    @StateObject var coordinator = NavigationCoordinator()
     var body: some Scene {
         WindowGroup {
-            MediaListView()
+            NavigationStack(path: $coordinator.navigationPath) {
+                coordinator.build(page: .mediaList)
+                    .navigationDestination(for: Page.self) { page in
+                        coordinator.build(page: page)
+                            
+                    }
+            }
+            .environmentObject(coordinator)
         }
     }
 }
