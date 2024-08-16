@@ -13,7 +13,7 @@ import Foundation
 /// Each nested struct conforms to the `Request` protocol, which allows them to be dispatched using a network client like `APIClient`.
 class APIRouter {
     
-    struct getMediaList: NetworkRequestProvider {
+    struct GetMediaList: NetworkRequestProvider {
         typealias ReturnType = MediaList
         var path: String = "medialist"
         var method: HTTPMethod = .get

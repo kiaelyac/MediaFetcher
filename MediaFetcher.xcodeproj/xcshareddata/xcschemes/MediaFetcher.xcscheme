@@ -27,17 +27,22 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:MediaFetcher.xctestplan"
+            default = "YES">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
-            skipped = "NO"
+            skipped = "YES"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6674DBDB2C6A6947008764FA"
-               BuildableName = "MediaFetcherTests.xctest"
-               BlueprintName = "MediaFetcherTests"
+               BlueprintIdentifier = "665398EC2C6FA61500CF985F"
+               BuildableName = "MediaListViewModelTests.xctest"
+               BlueprintName = "MediaListViewModelTests"
                ReferencedContainer = "container:MediaFetcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -49,6 +54,17 @@
                BlueprintIdentifier = "6674DBE52C6A6947008764FA"
                BuildableName = "MediaFetcherUITests.xctest"
                BlueprintName = "MediaFetcherUITests"
+               ReferencedContainer = "container:MediaFetcher.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "665398FC2C6FAAE500CF985F"
+               BuildableName = "MediaListViewModelTest.xctest"
+               BlueprintName = "MediaListViewModelTest"
                ReferencedContainer = "container:MediaFetcher.xcodeproj">
             </BuildableReference>
          </TestableReference>
