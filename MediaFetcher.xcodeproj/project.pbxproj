@@ -18,6 +18,7 @@
 		6653990C2C6FAC7000CF985F /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89B2C6E0C6700954837 /* APIRouter.swift */; };
 		6653990D2C6FAC7600CF985F /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89A2C6E0C6700954837 /* APIConstant.swift */; };
 		6653990E2C6FAC7C00CF985F /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E89C2C6E0C6700954837 /* NetworkDispatcher.swift */; };
+		667FAD1F2C6FC11000470D29 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FAD1E2C6FC11000470D29 /* NavigationCoordinator.swift */; };
 		66B3E8AD2C6E0C6700954837 /* MediaFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8912C6E0C6700954837 /* MediaFetcher.swift */; };
 		66B3E8AE2C6E0C6700954837 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8932C6E0C6700954837 /* String+Extension.swift */; };
 		66B3E8AF2C6E0C6700954837 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B3E8942C6E0C6700954837 /* View+Extension.swift */; };
@@ -54,6 +55,7 @@
 		665398FF2C6FAAE500CF985F /* MediaListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaListViewModelTest.swift; sourceTree = "<group>"; };
 		6653990F2C6FB3FF00CF985F /* MediaFetcher.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = MediaFetcher.xctestplan; sourceTree = "<group>"; };
 		6674DBCC2C6A6945008764FA /* MediaFetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaFetcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667FAD1E2C6FC11000470D29 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCoordinator.swift; sourceTree = "<group>"; };
 		66B3E8912C6E0C6700954837 /* MediaFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaFetcher.swift; sourceTree = "<group>"; };
 		66B3E8932C6E0C6700954837 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		66B3E8942C6E0C6700954837 /* View+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		667FAD1D2C6FC0FE00470D29 /* NavigationCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				667FAD1E2C6FC11000470D29 /* NavigationCoordinator.swift */,
+			);
+			path = NavigationCoordinator;
+			sourceTree = "<group>";
+		};
 		66B3E8922C6E0C6700954837 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,7 +205,7 @@
 		66B3E8A82C6E0C6700954837 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				665398D82C6E6F7100CF985F /* NavigationCoordinator */,
+				667FAD1D2C6FC0FE00470D29 /* NavigationCoordinator */,
 				66B3E8A32C6E0C6700954837 /* Helper */,
 				66B3E8A62C6E0C6700954837 /* MediaList */,
 				66B3E8A72C6E0C6700954837 /* MediaPlayerView.swift */,
@@ -347,6 +357,7 @@
 				66B3E8B12C6E0C6700954837 /* MediaType.swift in Sources */,
 				665398E42C6E811500CF985F /* MockAPIClient.swift in Sources */,
 				66B3E8AE2C6E0C6700954837 /* String+Extension.swift in Sources */,
+				667FAD1F2C6FC11000470D29 /* NavigationCoordinator.swift in Sources */,
 				66B3E8AF2C6E0C6700954837 /* View+Extension.swift in Sources */,
 				66B3E8B02C6E0C6700954837 /* MediaList.swift in Sources */,
 				66B3E8AD2C6E0C6700954837 /* MediaFetcher.swift in Sources */,
@@ -356,7 +367,6 @@
 				66B3E8B32C6E0C6700954837 /* APIConstant.swift in Sources */,
 				66B3E8B22C6E0C6700954837 /* APIClient.swift in Sources */,
 				66B3E8BD2C6E0C6700954837 /* MediaListViewModel.swift in Sources */,
-				665398DA2C6E70F200CF985F /* NavigationCoordinator.swift in Sources */,
 				66B3E8BA2C6E0C6700954837 /* MediaItemView.swift in Sources */,
 				66B3E8B62C6E0C6700954837 /* NetworkRequestError.swift in Sources */,
 				66B3E8BC2C6E0C6700954837 /* MediaPlayerView.swift in Sources */,

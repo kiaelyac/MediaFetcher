@@ -2,17 +2,14 @@
 //  NavigationCoordinator.swift
 //  MediaFetcher
 //
-//  Created by kiarash on 8/15/24.
+//  Created by kiarash on 8/16/24.
 //
 
 import SwiftUI
 
 enum Page: Hashable, Equatable {
-    
     case mediaList
     case mediaPlayerView(media: Media)
-    
-
 }
 
 class NavigationCoordinator: ObservableObject {

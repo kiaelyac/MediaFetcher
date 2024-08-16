@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Media: Codable, Equatable {
+struct Media: Codable, Equatable, Hashable {
     let title, type: String
     let previewLink: String
     let mediaLink: String
