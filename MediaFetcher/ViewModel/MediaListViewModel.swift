@@ -5,7 +5,6 @@
 //  Created by kiarash on 8/12/24.
 //
 
-import Foundation
 import Combine
 
 class MediaListViewModel: ObservableObject {

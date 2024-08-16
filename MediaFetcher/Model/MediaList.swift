@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Media: Codable, Equatable, Hashable {
     let title, type: String
     let previewLink: String

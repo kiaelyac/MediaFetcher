@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Page: Hashable, Equatable {
+enum Page: Hashable {
     case mediaList
     case mediaPlayerView(media: Media)
 }
