@@ -65,7 +65,7 @@ final class MediaListViewModelTest: XCTestCase {
         viewModel.$errorMessage
             .dropFirst() // To skip the initial value
             .sink { errorMessage in
-                XCTAssertEqual(errorMessage, expectedError.localizedDescription)
+                XCTAssertEqual(errorMessage, expectedError.errorDescription)
                 expectation.fulfill()
             }
             .store(in: &cancellables)
@@ -81,7 +81,7 @@ final class MediaListViewModelTest: XCTestCase {
         
         // Perform additional assertions
         XCTAssertTrue(viewModel.receivedError)
-        XCTAssertEqual(viewModel.errorMessage, expectedError.localizedDescription)
+        XCTAssertEqual(viewModel.errorMessage, expectedError.errorDescription)
         XCTAssertFalse(viewModel.isLoading)
         XCTAssertTrue(viewModel.mediaList.isEmpty)  // mediaList should be empty on failure
     }
