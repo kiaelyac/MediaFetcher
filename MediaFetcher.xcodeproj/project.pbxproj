@@ -105,6 +105,7 @@
 		665398FE2C6FAAE500CF985F /* MediaListViewModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				665398E22C6E80F600CF985F /* MockData */,
 				665398FF2C6FAAE500CF985F /* MediaListViewModelTest.swift */,
 			);
 			path = MediaListViewModelTest;
@@ -140,7 +141,6 @@
 		66B3E8922C6E0C6700954837 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				665398E22C6E80F600CF985F /* MockData */,
 				66B3E8912C6E0C6700954837 /* MediaFetcher.swift */,
 			);
 			path = App;
