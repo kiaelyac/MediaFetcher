@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "FB4D8F85-9D50-4206-AA1C-AA907745571C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "environmentVariableEntries" : [
+      {
+        "key" : "IDEPreferLogStreaming",
+        "value" : "YES"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:MediaFetcher.xcodeproj",
+      "identifier" : "6674DBCB2C6A6945008764FA",
+      "name" : "MediaFetcher"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:MediaFetcher.xcodeproj",
+        "identifier" : "665398FC2C6FAAE500CF985F",
+        "name" : "MediaListViewModelTest"
+      }
+    }
+  ],
+  "version" : 1
+}
