@@ -12,7 +12,7 @@ final class MediaListViewModelTest: XCTestCase {
     
     var viewModel: MediaListViewModel!
     var mockAPIClient: MockAPIClient!
-    var cancellables: Set<AnyCancellable> = []
+    var cancelable: Set<AnyCancellable> = []
     
     override func setUp() {
         super.setUp()
@@ -20,7 +20,7 @@ final class MediaListViewModelTest: XCTestCase {
         viewModel = MediaListViewModel(apiClient: mockAPIClient)
     }
     override func tearDown() {
-        cancellables.removeAll()
+        cancelable.removeAll()
         super.tearDown()
     }
     func testSuccessfulMediaListRetrieval() {
@@ -37,7 +37,7 @@ final class MediaListViewModelTest: XCTestCase {
                 XCTAssertEqual(mediaList, expectedMediaList)
                 expectation.fulfill()
             }
-            .store(in: &cancellables)
+            .store(in: &cancelable)
         
         // Trigger the API call in the view model
         viewModel.getMediaList()
@@ -68,7 +68,7 @@ final class MediaListViewModelTest: XCTestCase {
                 XCTAssertEqual(errorMessage, expectedError.errorDescription)
                 expectation.fulfill()
             }
-            .store(in: &cancellables)
+            .store(in: &cancelable)
         
         // Trigger the API call in the view model
         viewModel.getMediaList()
@@ -96,7 +96,7 @@ final class MediaListViewModelTest: XCTestCase {
                 XCTAssertEqual(mediaList, expectedMediaList)
                 expectation.fulfill()
             }
-            .store(in: &cancellables)
+            .store(in: &cancelable)
         
         // Trigger the API call in the view model
         viewModel.getMediaList()
